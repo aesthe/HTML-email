@@ -1,0 +1,148 @@
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+	margin: 0px auto !important;
+    display: block;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #343434;
+    font-family: "MheiHK","微软雅黑", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.outer {
+	max-width: 1920px !important;
+	margin: 0px auto !important;
+}
+
+.section {
+    padding: 0px;
+}
+
+
+.row {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 0%;
+}
+
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.mobile {
+    display: none;
+}
+
+.header {
+    background-color: #f2f2f2 !important;
+    padding: 10px;
+    margin: 0 auto !important;
+    border: 0px;
+}
+
+
+.logo {
+    height: 45px;
+    width: auto;
+	display: block;
+    margin: 0 auto;
+	margin-top: 5px;
+}
+
+.footer {
+    background-color: #e0e0e0 !important;
+    padding: 10px;
+    margin: 0 auto !important;
+    border: 0px;
+}
+
+
+.contact {
+    height: 118px;
+    width: auto;
+	display: block;
+    margin: 0 auto;
+	margin-top: 5px;
+}
+
+/* ---------------------------------------------------------------- */
+/* ----------------- **** Media Quries ****------------------------ */
+/* ---------------------------------------------------------------- */
+@media (max-width:3066px){.wrap{width:100%; margin:auto}}
+
+@media only screen and (max-width: 767px) {
+    body { font-size: 110%; }
+    section { padding: 0px; }
+    body { font-size: 90%; }
+}
+
+/* ----------------------------------------------- */
+/* ----  GO FULL WIDTH AT LESS THAN 480 PIXELS ----*/
+/* ----------------------------------------------- */
+@media (max-width: 540px) { 
+.broad { background-color:#FFFFFF; width:90%; -moz-border-radius: 0px; border-radius: 0px; text-align:left; margin:auto; z-index:100; }
+.wrap {	width:100%; }	
+.topbanner {text-align:center;  margin-bottom:-2%;}	
+.formmain{ width:90%;  margin: 0 auto 0 auto; text-align:center;}	
+.logo_img { width:60%; }
+.banner_img { width:60%; }
+#footer-wrapper{vertical-align:bottom;display:block;overflow:hidden;zoom:1; float:left; width:100%; text-align:center;padding:0px; z-index:555;margin-top:-10px}	
+.info { float:left; padding-bottom:0px; width:100%}
+.flink {float:left; margin-top:25px; margin-left:0px}
+.footlink{	width:100%;text-align:center; float:right}	
+.footer-msg{color:#000;	font-size:0.9em; line-height:1.4em; }
+
+    .flogo { float:left;}
+    label.desc {float: none !important}
+
+    
+    body { font-size: 90%; }
+    
+    .slide-viewer {
+        height: 300px;
+    }
+    .event {
+        margin: 0px auto 0px auto !important;
+        padding: 50px 0px 40px 0px !important;
+        border-top: 1px solid #FF7BB0;
+        border-bottom: 1px solid #FF7BB0;
+    }
+    
+    .desktop {
+        display: none;
+        display: none;
+    }
+    .mobile {
+        display: block;   
+    }
+    
+    
+    
+}
